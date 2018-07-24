@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Economica|Ropa+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/png" href="favicon.ico" />
+        <title>Jeu - 'Le Nombre Mystérieux' by Alpha.B &#38; Ludovic.R</title>
+    </head>
+    <body class="bg-anim">
+        <div class="container">
+            <main class="center w60">
+                
+                <section class="brd center-h brd-radius">
+                    <form name="form1">
+                        <span id="nomJoueur"></span>
+                        <p class="t-center brd-b p15p ft-ropa ft-size-20p">
+                            Devinez un nombre entre 0 et 100,
+                            <br />
+                            Appuyez sur la touche 'Entrée' pour valider
+                        </p>
+                        <div class="d-flex flex-col align-center just-center h200p bg ft-economica ft-size-12p">
+                            <input type="text" class="mrg-b-25p bg-zero brd-zero ft-red ft-economica ft-size-12p t-center" disabled="disabled" id="indice" value="">
+                            <input type="text" class="ft-economica mrg-b-25p ft-white ft-size-30p login-txt-input brd-none t-center" placeholder="Nombre" name="nb" id="nb" size="5px">
+                            <div class="d-inline">
+                                <span class="d-inline">Nombre de coups:</span>
+                                    <input type="text" disabled="disabled" id="coup" value="" class="ft-economica ft-size-12p mrg-sub-5p d-inline bg-zero brd-zero ft-red ft-size-12p" size="1px">
+                                <span class="d-inline">/10</span>
+                            </div>
+                            </p>
+                        </div>
+                    </form>  
+                </section>
+                <div class="d-flex just-between">
+                    <a href="index.html" class="d-inline">
+                        <i class="fa fa-arrow-left fa-2x ft-white"></i>
+                    </a>
+                    <p class="t-right mrg-t-10p ft-economica d-inline">&copy; Alpha.B &#38; Ludovic.R</p> 
+                </div>
+            </main>
+        </div>
+        <script src="js/jeu.js"></script>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Economica|Ropa+Sans" rel="stylesheet">
+        <link rel="icon" type="image/png" href="favicon.ico" />
+        <title>Jeu - 'Le Nombre Mystérieux' by Alpha.B &#38; Ludovic.R</title>
+    </head>
+    <body class="bg-win">
+        <div class="container">
+            <main class="center w60">
+                <section class="brd center-h brd-radius d-flex flex-col align-center just-center t-center h650p">
+                    <form name="form1">
+                        <img src="images/trophy.png" height="350px" width="250px" >
+                        <div class="d-flex flex-col align-center just-center h150p ft-economica ft-size-17p">
+                            <div class="mrg-b-25p">
+                                <script>
+                                    document.write("<p>BRAVO"+ "  " + localStorage.pseudo + "!</p><br />");
+                                    document.write("<p>Vous avez trouvé le nombre mystère en" + " " + localStorage.NbEssais + " " + "essais.");
+                                </script>
+                            </div>
+                            <div>
+                                <a href="index.html" class="btn t-decoration-none ft-economica ft-size-12p p7p">
+                                Nouvelle partie
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+                <p class="t-right mrg-t-10p ft-economica ">&copy; Alpha.B &#38; Ludovic.R</p>    
+            </main>
+        </div>
+    </body>
+</html>
+        
